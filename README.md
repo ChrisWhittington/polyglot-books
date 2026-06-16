@@ -1,22 +1,8 @@
 # Polyglot Opening Books
 
-A collection of [Polyglot](http://hgm.nubati.net/book_format.html) (`.bin`) opening books for chess engines, as used with the **Chess System Tal** engine and any other UCI engine that supports Polyglot books.
+A collection of [Polyglot](http://hgm.nubati.net/book_format.html) (`.bin`) opening books for chess engines, for use with the **Chess System Tal** engine and any other UCI engine that supports Polyglot books.
 
 Because some of these files are large (up to ~170 MB), the books are **not** stored in this git repository — they are published as zipped assets on the [**Releases**](../../releases/latest) page. Each book is a separate `.zip` containing one `.bin` file, so you can grab only the ones you want.
-
-## Engine set
-
-The books shipped with Chess System Tal.
-
-| Book | `.bin` size | Entries¹ | Download |
-|------|------------:|---------:|----------|
-| `book.bin` | 169.7 MB | 11,123,374 | [book.zip](../../releases/latest/download/book.zip) |
-| `uho-pohl.bin` | 76.7 MB | 5,027,499 | [uho-pohl.zip](../../releases/latest/download/uho-pohl.zip) |
-| `Jeroen.bin` | 0.64 MB | 41,733 | [Jeroen.zip](../../releases/latest/download/Jeroen.zip) |
-| `fruit.bin` | 0.48 MB | 31,467 | [fruit.zip](../../releases/latest/download/fruit.zip) |
-| `Daring.bin` | 0.29 MB | 19,152 | [Daring.zip](../../releases/latest/download/Daring.zip) |
-| `Rebel.bin` | 0.29 MB | 18,990 | [Rebel.zip](../../releases/latest/download/Rebel.zip) |
-| `Variety.bin` | 0.17 MB | 11,387 | [Variety.zip](../../releases/latest/download/Variety.zip) |
 
 ## Community books
 
@@ -24,6 +10,8 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 
 | Book | `.bin` size | Entries¹ | Source | Download |
 |------|------------:|---------:|--------|----------|
+| `book.bin` | 169.7 MB | 11,123,374 | Chess System Tal | [book.zip](../../releases/latest/download/book.zip) |
+| `uho-pohl.bin` | 76.7 MB | 5,027,499 | Stefan Pohl (UHO) | [uho-pohl.zip](../../releases/latest/download/uho-pohl.zip) |
 | `codekiddy.bin` | 15.7 MB | 1,030,253 | CodeKiddy collection | [codekiddy.zip](../../releases/latest/download/codekiddy.zip) |
 | `komodo.bin` | 8.8 MB | 578,126 | Salvo Spitaleri (Komodo) | [komodo.zip](../../releases/latest/download/komodo.zip) |
 | `DCbook_large.bin` | 6.1 MB | 398,022 | CodeKiddy collection | [DCbook_large.zip](../../releases/latest/download/DCbook_large.zip) |
@@ -37,8 +25,13 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 | `Performance.bin` | 1.4 MB | 92,954 | CodeKiddy collection | [Performance.zip](../../releases/latest/download/Performance.zip) |
 | `varied.bin` | 1.4 MB | 92,229 | CodeKiddy collection | [varied.zip](../../releases/latest/download/varied.zip) |
 | `gavibook-small.bin` | 0.68 MB | 44,694 | CodeKiddy collection | [gavibook-small.zip](../../releases/latest/download/gavibook-small.zip) |
+| `Jeroen.bin` | 0.64 MB | 41,733 | Jeroen Noomen (Rebel) | [Jeroen.zip](../../releases/latest/download/Jeroen.zip) |
+| `fruit.bin` | 0.48 MB | 31,467 | Fruit engine book | [fruit.zip](../../releases/latest/download/fruit.zip) |
 | `gm2001.bin` | 0.46 MB | 30,416 | Oliver Deville (GM 2001–2013, ≥2530) | [gm2001.zip](../../releases/latest/download/gm2001.zip) |
 | `gm2600.bin` | 0.33 MB | 21,671 | CodeKiddy collection | [gm2600.zip](../../releases/latest/download/gm2600.zip) |
+| `Daring.bin` | 0.29 MB | 19,152 | Chess System Tal | [Daring.zip](../../releases/latest/download/Daring.zip) |
+| `Rebel.bin` | 0.29 MB | 18,990 | Jeroen Noomen (Rebel) | [Rebel.zip](../../releases/latest/download/Rebel.zip) |
+| `Variety.bin` | 0.17 MB | 11,387 | Chess System Tal | [Variety.zip](../../releases/latest/download/Variety.zip) |
 
 ¹ Each Polyglot entry is a position–move pair (16 bytes); a single position may have several entries.
 ² The CodeKiddy collection's `Book.bin`, renamed to avoid colliding with the large `book.bin` above.
@@ -51,11 +44,13 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 
 ## Credits
 
-The community books were collected from publicly available sources, including:
+The books were collected from publicly available sources, including:
 
 - The [**CodeKiddy** Polyglot book collection](https://sourceforge.net/projects/codekiddy-chess/files/Books/Polyglot%20books/) (SourceForge).
 - [**donna_opening_books**](https://github.com/michaeldv/donna_opening_books) — `gm2001` (Oliver Deville), `komodo` (Salvo Spitaleri), `rodent` (Paweł Kozioł).
 - [**The Baron**](https://rebel13.nl/) book by Richard Pijl.
+- Jeroen Noomen's Rebel/ProDeo books ([rebel13.nl](https://rebel13.nl/)).
+- Stefan Pohl's [UHO openings](https://www.sp-cc.de/) (converted to Polyglot format).
 
 All opening books remain the work of their respective authors and are provided here as-is for use with chess engines.
 
