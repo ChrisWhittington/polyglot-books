@@ -42,6 +42,10 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 2. Point your UCI engine at the `.bin` file — in Chess System Tal, set the **Book File** option (or your GUI's Polyglot book setting) to the unzipped `.bin`.
 3. Enable book play (e.g. **OwnBook = true**) if your GUI exposes it.
 
+## For engine authors
+
+Polyglot and Zobrist docs — the `.bin` entry layout, move encoding, and the Zobrist hashing keys used to index positions: <http://hgm.nubati.net/book_format.html>
+
 ## Credits
 
 The books were collected from publicly available sources, including:
