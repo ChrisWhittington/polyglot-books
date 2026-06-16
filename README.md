@@ -13,7 +13,6 @@ The books shipped with Chess System Tal.
 | `book.bin` | 169.7 MB | 11,123,374 | [book.zip](../../releases/latest/download/book.zip) |
 | `uho-pohl.bin` | 76.7 MB | 5,027,499 | [uho-pohl.zip](../../releases/latest/download/uho-pohl.zip) |
 | `Jeroen.bin` | 0.64 MB | 41,733 | [Jeroen.zip](../../releases/latest/download/Jeroen.zip) |
-| `Rebel-last-one-jeroen.bin`² | 0.64 MB | 41,733 | [Rebel-last-one-jeroen.zip](../../releases/latest/download/Rebel-last-one-jeroen.zip) |
 | `fruit.bin` | 0.48 MB | 31,467 | [fruit.zip](../../releases/latest/download/fruit.zip) |
 | `Daring.bin` | 0.29 MB | 19,152 | [Daring.zip](../../releases/latest/download/Daring.zip) |
 | `Rebel.bin` | 0.29 MB | 18,990 | [Rebel.zip](../../releases/latest/download/Rebel.zip) |
@@ -28,7 +27,7 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 | `codekiddy.bin` | 15.7 MB | 1,030,253 | CodeKiddy collection | [codekiddy.zip](../../releases/latest/download/codekiddy.zip) |
 | `komodo.bin` | 8.8 MB | 578,126 | Salvo Spitaleri (Komodo) | [komodo.zip](../../releases/latest/download/komodo.zip) |
 | `DCbook_large.bin` | 6.1 MB | 398,022 | CodeKiddy collection | [DCbook_large.zip](../../releases/latest/download/DCbook_large.zip) |
-| `Book-ck.bin`³ | 5.5 MB | 360,125 | CodeKiddy collection | [Book-ck.zip](../../releases/latest/download/Book-ck.zip) |
+| `Book-ck.bin`² | 5.5 MB | 360,125 | CodeKiddy collection | [Book-ck.zip](../../releases/latest/download/Book-ck.zip) |
 | `gavibook.bin` | 5.1 MB | 333,577 | CodeKiddy collection | [gavibook.zip](../../releases/latest/download/gavibook.zip) |
 | `KomodoVariety.bin` | 4.1 MB | 267,489 | CodeKiddy collection | [KomodoVariety.zip](../../releases/latest/download/KomodoVariety.zip) |
 | `final-book.bin` | 2.8 MB | 183,804 | CodeKiddy collection | [final-book.zip](../../releases/latest/download/final-book.zip) |
@@ -42,8 +41,7 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 | `gm2600.bin` | 0.33 MB | 21,671 | CodeKiddy collection | [gm2600.zip](../../releases/latest/download/gm2600.zip) |
 
 ¹ Each Polyglot entry is a position–move pair (16 bytes); a single position may have several entries.
-² Byte-identical to `Jeroen.bin`; kept under both names as shipped.
-³ The CodeKiddy collection's `Book.bin`, renamed to avoid colliding with the large `book.bin` above.
+² The CodeKiddy collection's `Book.bin`, renamed to avoid colliding with the large `book.bin` above.
 
 ## Usage
 
