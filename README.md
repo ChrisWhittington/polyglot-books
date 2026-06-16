@@ -10,7 +10,7 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 
 | Book | `.bin` size | Entries¹ | Source | Download |
 |------|------------:|---------:|--------|----------|
-| `book.bin` | 169.7 MB | 11,123,374 | Chess System Tal | [book.zip](../../releases/latest/download/book.zip) |
+| `book.bin` | 169.7 MB | 11,123,374 | Jeroen Noomen (Rebel) | [book.zip](../../releases/latest/download/book.zip) |
 | `uho-pohl.bin` | 76.7 MB | 5,027,499 | Stefan Pohl (UHO) | [uho-pohl.zip](../../releases/latest/download/uho-pohl.zip) |
 | `codekiddy.bin` | 15.7 MB | 1,030,253 | CodeKiddy collection | [codekiddy.zip](../../releases/latest/download/codekiddy.zip) |
 | `komodo.bin` | 8.8 MB | 578,126 | Salvo Spitaleri (Komodo) | [komodo.zip](../../releases/latest/download/komodo.zip) |
@@ -29,9 +29,9 @@ Freely-distributed Polyglot books gathered from public sources (see **Credits**)
 | `fruit.bin` | 0.48 MB | 31,467 | Fruit engine book | [fruit.zip](../../releases/latest/download/fruit.zip) |
 | `gm2001.bin` | 0.46 MB | 30,416 | Oliver Deville (GM 2001–2013, ≥2530) | [gm2001.zip](../../releases/latest/download/gm2001.zip) |
 | `gm2600.bin` | 0.33 MB | 21,671 | CodeKiddy collection | [gm2600.zip](../../releases/latest/download/gm2600.zip) |
-| `Daring.bin` | 0.29 MB | 19,152 | Chess System Tal | [Daring.zip](../../releases/latest/download/Daring.zip) |
+| `Daring.bin` | 0.29 MB | 19,152 | Jeroen Noomen (Rebel) | [Daring.zip](../../releases/latest/download/Daring.zip) |
 | `Rebel.bin` | 0.29 MB | 18,990 | Jeroen Noomen (Rebel) | [Rebel.zip](../../releases/latest/download/Rebel.zip) |
-| `Variety.bin` | 0.17 MB | 11,387 | Chess System Tal | [Variety.zip](../../releases/latest/download/Variety.zip) |
+| `Variety.bin` | 0.17 MB | 11,387 | Jeroen Noomen (Rebel) | [Variety.zip](../../releases/latest/download/Variety.zip) |
 
 ¹ Each Polyglot entry is a position–move pair (16 bytes); a single position may have several entries.
 ² The CodeKiddy collection's `Book.bin`, renamed to avoid colliding with the large `book.bin` above.
