@@ -1,0 +1,4 @@
+# Books and build artifacts are distributed via GitHub Releases, not tracked in git
+*.bin
+*.zip
+dist/
